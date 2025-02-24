@@ -25,22 +25,18 @@ Genera 400 puntos equidistantes en el rango de -10 a 10.
 Los valores son utilizados para crear el eje x.
 '''
 x = np.linspace(-10, 10, 400)
-
-'''La función identidad evalúa cada valor del arreglo x'''
-y = identity(x)
-
-'''La derivada de la función identidad evalúa cada valor del arreglo x'''
-dy = identity_derivative(x)
+y = identity(x) #La función identidad evalúa cada valor del arreglo x.
+dy = identity_derivative(x) #La derivada de la función identidad evalúa cada valor del arreglo x.
 
 '''
 Configuración de la gráfica
 '''
-plt.figure(figsize=(8, 5))
-plt.plot(x, y, label='Identidad') # Gráfica la función identidad con una linea continua
-plt.plot(x, dy, label='Derivada de la Identidad', linestyle='dashed') #Gráfica la derivada de la función identidad con una linea discontinua
-plt.axhline(0, color='black', linewidth=0.5) #define el color del eje "x" horizontal
-plt.axvline(0, color='black', linewidth=0.5) #define el color del eje "y" vertical
-plt.title("Función Identidad y su Derivada") #titulo de la gráfica
-plt.legend()
-plt.grid()
-plt.show()
+plt.figure(figsize=(8, 5)) # Se establece el tamaño de la gráfica.
+plt.plot(x, y, label='Identidad') # Gráfica la función identidad con una linea continua.
+plt.plot(x, dy, label='Derivada de la Identidad', linestyle='dashed') #Gráfica la derivada de la función identidad con una linea discontinua.
+plt.axhline(0, color='black', linewidth=0.5) #define el color del eje "x" horizontal.
+plt.axvline(0, color='black', linewidth=0.5) #define el color del eje "y" vertical.
+plt.title("Función Identidad y su Derivada") #titulo de la gráfica.
+plt.legend() #Muestra la etiqueta de cada gráfica.
+plt.grid() #Activa la cuadrícula.
+plt.show() #Muetra la gráfica en una ventana.
