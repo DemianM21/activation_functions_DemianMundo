@@ -1,168 +1,151 @@
-<<<<<<< HEAD
-# FUNCIONES DE ACTIVACIÓN
+# 🧠 Funciones de Activación en Machine Learning
 
-**Fecha:** 10 de octubre de 2023  
-**Autor:** Demian Mundo
+## 📅 Fecha: 10 de octubre de 2023  
+## 👤 Autor: Demian Mundo  
 
-## Introducción
-Este proyecto tiene como objetivo mostrar cómo graficar 8 tipos de funciones de activación comunes en el ámbito de machine learning e inteligencia artificial. Además, se proporciona una guía para configurar y utilizar este repositorio en tu computadora.
+---
 
-## Objetivo
-- Conocer las funciones de activación.
-- Graficar y visualizar las funciones de activación realizadas en Python.
-- Facilitar la reutilización del código mediante un repositorio organizado.
+## 🚀 Introducción  
+Este proyecto tiene como objetivo mostrar cómo graficar 8 tipos de funciones de activación comunes en el ámbito de machine learning e inteligencia artificial. Además, se proporciona una guía paso a paso para configurar y utilizar este repositorio en tu computadora.
 
-## Desarrollo
-El proyecto incluye la implementación de las siguientes funciones de activación:
+---
 
-### 1. Función Escalón (Step)
-- Devuelve `0` si la entrada es menor que `0`, y `1` si es mayor o igual a `0`.
-- Se utiliza para la clasificación binaria.
+## 🎯 Objetivo  
+- Conocer y entender las funciones de activación más utilizadas en machine learning.  
+- Graficar y visualizar estas funciones utilizando Python.  
+- Facilitar la reutilización del código mediante un repositorio organizado y modular.  
 
-### 2. Función Sigmoide (Sigmoid)
-- Transforma la entrada en un valor entre `0` y `1`.
-- Se utiliza para clasificación binaria y redes neuronales.
+---
 
-### 3. Función Gaussiana (Gaussian)
-- Devuelve una curva en forma de campana centrada en `0`.
-- Se utiliza en redes neuronales radiales.
+## 🛠️ Desarrollo  
+El proyecto incluye la implementación y visualización de las siguientes funciones de activación:
 
-### 4. Función Identidad (Identity)
-- Devuelve la misma entrada sin modificaciones.
-- Se utiliza en regresión lineal.
+### 1️⃣ Función Escalón (Step)  
+🔹 Devuelve 0 si la entrada es menor que 0, y 1 si es mayor o igual a 0.  
+🔹 Se utiliza para la clasificación binaria.  
 
-### 5. Función Lineal a Trozos (Piecewise)
-- Combina segmentos lineales para formar una función no lineal.
-- Se utiliza en aproximación de funciones complejas.
+### 2️⃣ Función Sigmoide (Sigmoid)  
+🔹 Transforma la entrada en un valor entre 0 y 1.  
+🔹 Se utiliza en clasificación binaria y redes neuronales.  
 
-### 6. Función ReLU (Rectified Linear Unit)
-- Devuelve `0` si la entrada es negativa y la entrada misma si es positiva.
-- Se usa en redes neuronales profundas.
+### 3️⃣ Función Gaussiana (Gaussian)  
+🔹 Devuelve una curva en forma de campana centrada en 0.  
+🔹 Se utiliza en redes neuronales radiales.  
 
-### 7. Función Sinusoidal (Sinusoidal)
-- Devuelve el valor del seno de la entrada.
-- Se utiliza en modelos periódicos.
+### 4️⃣ Función Identidad (Identity)  
+🔹 Devuelve la misma entrada sin modificaciones.  
+🔹 Se utiliza en regresión lineal.  
 
-### 8. Función Tangente Hiperbólica (Tanh)
-- Transforma la entrada en un valor entre `-1` y `1`.
-- Se usa en la clasificación y redes neuronales.
+### 5️⃣ Función Lineal a Trozos (Piecewise)  
+🔹 Combina segmentos lineales para formar una función no lineal.  
+🔹 Se utiliza en la aproximación de funciones complejas.  
 
-## Conclusión
-La implementación de estas funciones de activación permite visualizar su comportamiento para aplicarlas en proyectos de machine learning.
+### 6️⃣ Función ReLU (Rectified Linear Unit)  
+🔹 Devuelve 0 si la entrada es negativa y la entrada misma si es positiva.  
+🔹 Es ampliamente usada en redes neuronales profundas.  
 
-## Notas Adicionales
-- El repositorio incluye un archivo **`requirements.txt`** para instalar los módulos necesarios.
-- Se recomienda utilizar un entorno virtual para evitar conflictos.
-- El código está organizado en módulos dentro de la carpeta **`src`** para facilitar su reutilización.
+### 7️⃣ Función Sinusoidal (Sinusoidal)  
+🔹 Devuelve el valor del seno de la entrada.  
+🔹 Se utiliza en modelos periódicos.  
 
-## Instrucciones para Usar el Repositorio
+### 8️⃣ Función Tangente Hiperbólica (Tanh)  
+🔹 Transforma la entrada en un valor entre -1 y 1.  
+🔹 Se usa en clasificación y redes neuronales.  
 
-1. Clona el repositorio en tu computadora:
-   ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
-   ```
+---
 
-2. Crea un entorno virtual e instala las dependencias:
-   
-   **En Linux/Mac:**
-   ```sh
-   python -m venv env
-   source env/bin/activate
-   pip install -r requirements.txt
-   ```
-   
-   **En Windows:**
-   ```sh
-   python -m venv env
-   env\Scripts\activate
-   pip install -r requirements.txt
-   ```
+## 📊 Conclusión  
+La implementación de estas funciones de activación permite visualizar su comportamiento y comprender su aplicación en proyectos de machine learning e inteligencia artificial.
 
-3. Ejecuta el archivo principal para visualizar las gráficas:
-   ```sh
-   python main.py
-   ```
-=======
-FUNCIONES DE ACTIVACIÓN
-Fecha: 10 de octubre de 2023  
-Autor: Demian Mundo
+---
 
-Introducción:  
-Este proyecto tiene como objetivo mostrar cómo gráficar 8 tipos de funciones de
-activación comunes en el ámbito de maching learning y inteligencia artificial. Además,
-se proporciona una guía para configurar y utilizar este repositorio en tu computadora.
+## 📝 Notas Adicionales  
+- El repositorio incluye un archivo `requirements.txt` para instalar los módulos necesarios.  
+- Se recomienda utilizar un entorno virtual para evitar conflictos entre dependencias.  
+- El código está organizado en módulos dentro de la carpeta `src` para facilitar su reutilización.  
 
-Objetivo:  
-Conocer las funciones de activación.
-Gráficar y visualizar las funciones de activación realizadas en python.
-Facilitar la reutiliación del codigo mediante un repositorio organizado.
+---
 
-Desarrollo:  
-El proyecto incluye la implementación de las siguientes funciones de activación:
+## 🛠️ Instrucciones de Configuración  
+Sigue estos pasos para configurar y ejecutar el proyecto correctamente.
 
-- Función Escalón (Step): 
+### 📌 Requisitos Previos  
+Antes de comenzar, asegúrate de tener instalado:
+- **Python** (versión 3.x recomendada)
+- **Git**
 
-Devuelve 0 si la entrada es menor que 0, y 1 si es mayor o igual a 0.
-Se utiliza para la clasificación binaria.
+### 🔹 1️⃣ Clonar el Repositorio  
+Abre la terminal (CMD, PowerShell o Git Bash) en la carpeta donde deseas guardar el proyecto y ejecuta:
 
--Función Sigmoide (Sigmoid):
+```bash
+git clone https://github.com/DemianM21/activation_functions_DemianMundo.git
+```
+Luego, entra en la carpeta del proyecto:
 
-Transforma la entrada en un valor entre 0 y 1.
-Se utiliza para clasificación binaria y redes neuronales.
+```bash
+cd activation_functions_DemianMundo
+```
 
--Función Gaussiana (Gaussian)
+### 🔹 2️⃣ Crear un Entorno Virtual  
+Ejecuta el siguiente comando para crear un entorno virtual:
 
-Devuelve una curva en forma de campana centrada en 0.
-Se utiliza en redes neuronales radiales.
+```bash
+python -m venv venv
+```
 
--Función Identidad (Identity):
+### 🔹 3️⃣ Activar el Entorno Virtual  
 
-Devuelve la misma entrada sin modificaciones
-Se utiliza en regresión lineal
+#### En PowerShell (Windows):  
+```powershell
+.\venv\Scripts\Activate.ps1
+```
 
--Función lineal a trozos (Piecewise):
+#### En CMD (Windows):  
+```cmd
+venv\Scripts\activate.bat
+```
 
-Combina segmentos lineales para formar una función no lineal.
-Se utiliza en aproximación de funciones complejas.
+#### En Git Bash o WSL (Linux/Mac):  
+```bash
+source venv/bin/activate
+```
 
--Función Relu (Rectified Linear Unit):
+Si la activación en PowerShell da error, ejecuta:
 
-Devuelve 0 si la entrada en negativa. y la entrada misma si es positiva.
-Se usa en redes neuronales profundas.
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+y vuelve a intentarlo.
 
--Función Sinusoidal (Sinusoidal):
+### 🔹 4️⃣ Instalar Dependencias  
+Ejecuta el siguiente comando para instalar los paquetes necesarios:
 
-Devuelve el valor del seno de la entrada.
-Se utiliza en modelos periódicos.
-
--Función Tangente Hiperbólica (Tanh):
-
-Transforma la entrada en un valor entre -1 y 1.
-Se usa en la clasificación y redes neuronales
-
-
-Conclusión:  
-La implementación de estas funciones de activación permite visualizar su comportamiento, para aplicarlas en 
-proyectos de maching learning.
-
-Notas adicionales:  
-
--El repositorio incluye un archivo "requirements.txt" para instalar los modulos necesarios
--Se recomienda utilizar un entorno virtual, para evitar conflictos.
--El código esta organizado en módulos dentro de la carpeta "src" para facilitar su reutilización.
-
-
-Instrucciones para usar el repositorio:
-
-1. Clona el repositorio en tu computadora.
-2. Crea un entorno virtual (env) e instala las dependencias:
-
-python -m venv env
-source env/bin/activate  # En Linux/Mac
-
-env\Scripts\activate     # En Windows
+```bash
 pip install -r requirements.txt
+```
 
-3. Ejecuta el archivo "main.py" para visualizar las gráficas de las funciones de activación.
->>>>>>> 870fc325f3958f0f8b2df3608b257be75ff17186
+### 🔹 5️⃣ Ejecutar el Proyecto  
+Para correr el archivo principal del proyecto, usa:
+
+```bash
+python main.py
+```
+
+---
+
+### 📌 Notas Adicionales  
+Si necesitas desinstalar todas las dependencias, usa:
+
+```bash
+pip freeze > paquetes.txt
+pip uninstall -r paquetes.txt -y
+del paquetes.txt  # (Windows)
+rm paquetes.txt   # (Linux/Mac)
+```
+
+Si tienes problemas con `pip`, asegúrate de actualizarlo:
+
+```bash
+python -m pip install --upgrade pip
+```
+
