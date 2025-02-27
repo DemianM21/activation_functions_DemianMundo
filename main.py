@@ -15,7 +15,7 @@ from src.identity import identity             # Función identidad
 from src.lineal_a_tramos import piecewise       # Función lineal a tramos
 from src.relu import relu                     # Función ReLU (Rectified Linear Unit)
 from src.sinusoidal import sinusoidal         # Función sinusoidal
-from src.tangente_hiperbolica import tanh       # Función tangente hiperbólica
+from src.tangente_hiperbolica import tanh       # Función tangente hiperbólica  
 
 def main():
     # Definimos un rango de valores para el eje x: desde -10 hasta 10 con 400 puntos equidistantes
@@ -69,3 +69,9 @@ def main():
 # y no cuando se importa como módulo en otro script
 if __name__ == "__main__":
     main()
+    
+    
+    
+    
+    
+    
